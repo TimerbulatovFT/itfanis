@@ -1,0 +1,17 @@
+
+#box1{
+    width: 180px;
+    height: 180px;
+    background-color: #282828;
+    padding: 20px;
+    color: #AFAFAF;
+}
+
+#box2{
+    width: 180px;
+    height: 180px;
+    background-color: #282828;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #AFAFAF;
+}

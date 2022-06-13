@@ -1,0 +1,19 @@
+input {
+    height: 100px;
+    width: 100px;
+    opacity: 50%;
+}
+label {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+input:checked + label {
+    background-color: red;
+}
+
+input:checked + span {
+    background: #fc0;
+}
+

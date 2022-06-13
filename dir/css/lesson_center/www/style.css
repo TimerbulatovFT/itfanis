@@ -1,0 +1,16 @@
+
+#center_container{
+    width: 300px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+
+#center_item{
+    width: 80px;
+    height: 80px;
+    background-color: #282828;
+    color: #f0c040;
+}

@@ -1,0 +1,41 @@
+.item{
+    width: 200px;
+    height: 350px;
+    display:flex;
+
+    justify-content: center;
+}
+.zero{
+    background: #9B410E;
+    position: sticky;
+    left: 1000px;
+    top: 100px;
+}
+.first{
+    background: lightgray;
+    position: relative;
+    left: 90px;
+    top: 100px;
+}
+.second{
+    background: red;
+    position: absolute;
+    top:250px;
+    left:300px;
+}
+.third{
+    background: gold;
+}
+.forty{
+    background: darkkhaki;
+    position: fixed;
+    left: 700px;
+    top: 300px;
+}
+.center_note{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    align-self: center;
+
+}

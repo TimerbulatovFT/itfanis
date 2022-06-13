@@ -1,0 +1,32 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background: lightgray;
+    font-size: 50px;
+}
+#none .item{
+    display: none;
+}
+
+#block .item{
+    display: block;
+}
+
+#inline .item{
+    display: inline;
+}
+
+#inline-block .item{
+    display: inline-block;
+}
+
+#flex .item{
+    display: flex;
+}
+
+#grid .item{
+    display: grid;
+}
+#none #block #inline #inline-block #flex #grid{
+    margin-top: 200px;
+}

@@ -1,0 +1,48 @@
+/********* Файл style.css ****************/
+/**
+ * Просто внешний вид 
+ */
+body {
+	font-size:12pt;
+	color:#333333;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+}
+.row {
+	margin-bottom:10px;
+	float: left;
+}
+.row label {
+	margin-bottom:5px;
+	font-weight:bold;
+
+	display:block;
+}
+.row select {
+	width:600px;
+	font-size:1.1em;
+	border:1px solid #aaaaaa;
+	padding:3px 5px;
+}
+#city_wrapper {
+	width: 610px;
+	margin: 10px auto 0 auto;
+	display:inline;
+}
+
+#city{
+	width:400px;
+}
+
+#school{
+	width:700px;
+}
+
+#order_text{
+	font-size: 20pt;
+	width: 100%;
+	box-sizing: border-box;
+}
+#button{
+	font-size: 15pt;
+	font-weight: bold;
+}
