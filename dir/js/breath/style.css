@@ -1,0 +1,41 @@
+body{
+    background-color:darkseagreen;
+
+}
+.inside{
+border: 1px solid black;
+}
+.cont{
+    display: flex;
+}
+.block_body1, .block_body2, .block_body3, .block_body4 {
+    width: 250px;
+    border: 1px solid white;
+    margin: 5px;
+    overflow: hidden;
+    max-height: 500px;
+    transition: max-height 0s;
+    height: 500px;
+}
+.block_hide1, .block_hide2, .block_hide3, .block_hide4 {
+    max-height: 0;
+}
+.headTitle{
+    font-family:monospace;
+    font-size: 25px;
+    font-weight: 800;
+    color:crimson;
+    text-align: center;
+}
+.block_body1{
+    background-color:chartreuse;
+}
+.block_body2{
+    background-color:darkgreen;
+}
+.block_body3{
+    background-color:darkolivegreen;
+}
+.block_body4{
+    background-color:forestgreen;
+}

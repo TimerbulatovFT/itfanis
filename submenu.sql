@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 30, 2022 at 07:07 PM
+-- Generation Time: Jun 29, 2022 at 06:47 AM
 -- Server version: 5.7.24
 -- PHP Version: 7.4.1
 
@@ -42,7 +42,7 @@ CREATE TABLE `submenu` (
 INSERT INTO `submenu` (`id`, `parent_id`, `name`, `dir`) VALUES
 (1, 1, 'Интернет-магазин', 'shop'),
 (2, 1, 'Контакты и реквизиты', 'clients'),
-(3, 1, 'PHP-3', ''),
+(3, 1, 'Подключение и выборка', 'connect_and_query'),
 (4, 2, 'HTML-1', ''),
 (5, 2, 'HTML-2', ''),
 (6, 2, 'HTML-3', ''),
@@ -78,7 +78,20 @@ INSERT INTO `submenu` (`id`, `parent_id`, `name`, `dir`) VALUES
 (36, 4, 'Тернарный оператор', 'lesson_ternar'),
 (37, 4, 'Выражения и инструкции', 'lesson_11clock_16'),
 (38, 4, 'Массивы', 'lesson_11clock_17'),
-(39, 4, 'Методы массивов', 'lesson_11clock_18');
+(39, 4, 'Методы массивов', 'lesson_11clock_18'),
+(40, 4, 'Деструктуризация', 'lesson_11clock_19'),
+(41, 4, 'Замыкания', 'lesson_closure'),
+(42, 4, 'Кнопки размера текста', 'less_closure_button'),
+(43, 4, 'Цикл For in', 'lesson_for_in'),
+(44, 4, 'Динамический текст', 'lesson_anime_text'),
+(45, 4, 'Модули', 'lesson_11clock_20'),
+(46, 4, 'Создание экземпляра', 'lesson_11clock_21'),
+(47, 4, 'Расширение класса', 'lesson_11clock_22'),
+(48, 4, 'Промисы', 'lesson_11clock_23'),
+(49, 4, 'Fetch для промиса', 'lesson_11clock_24'),
+(50, 4, 'Асинхронные функции', 'lesson_11clock_25'),
+(51, 4, 'ASYNC/AWAIT', 'lesson_11clock_26'),
+(52, 4, 'Тренажер дыхания', 'breath');
 
 --
 -- Indexes for dumped tables
@@ -98,7 +111,7 @@ ALTER TABLE `submenu`
 -- AUTO_INCREMENT for table `submenu`
 --
 ALTER TABLE `submenu`
-  MODIFY `id` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

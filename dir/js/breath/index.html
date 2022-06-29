@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p class="headTitle">Тренажер дыхания</p>
+<table class="inside">
+<tr>
+<td><label for="breath">Количество циклов</label>
+<form>
+    <input type="radio" name="chooseRadio" class="radioStyle" id="radio10" value=10>
+    <label for="radio10">10 циклов</label>
+    <input type="radio" name="chooseRadio" class="radioStyle" id="radio20" value=20>
+    <label for="radio20">20 циклов</label>
+    <input type="radio" name="chooseRadio" class="radioStyle" id="radio30" value=30>
+    <label for="radio30">30 циклов</label>
+</form>
+</td>
+</tr>
+<tr>
+<td><div id="block_header">
+<label for="breath">Вдох</label>
+<input type="number" class="inputStyle" id="breath">
+<label for="breath_holding_on">З/ на вдохе</label>
+<input type="number" class="inputStyle" id="breath_holding_on">
+<label for="exhalation">Выдох</label>
+<input type="number" class="inputStyle" id="exhalation">
+<label for="breath_holding_off">З/ на выдохе</label>
+<input type="number" class="inputStyle" id="breath_holding_off">
+<button type="button" id="go_button" onclick="Click()">Начать</button>
+</div>
+</td>
+</tr>
+<tr>
+<td><div class="cont">
+<div class="block_body1" id="block_body1"></div>
+<div class="block_body2" id="block_body2"></div>
+<div class="block_body3" id="block_body3"></div>
+<div class="block_body4" id="block_body4"></div>
+<script src="script.js"></script>
+<script src="script10.js"></script>
+<script src="script20.js"></script>
+<script src="script30.js"></script>
+<div class="scr"></div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
